@@ -1,0 +1,601 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-family: Poppins, sans-serif;
+}
+/* .container {
+  position: relative;
+  /* height: 100px;
+  width: 100%;
+  background-color: white; 
+} */
+.container1 {
+  position: absolute;
+  top: 0px;
+  height: 770px;
+  width: 100%;
+  background: transparent linear-gradient(241deg, #ba51d9 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+}
+.container2 {
+  position: relative;
+  top: 750px;
+  height: 719px;
+  width: 101%;
+  /* background-color: blue; */
+  background-color: #fcfaff;
+}
+.container3 {
+  position: absolute;
+  top: 1569px;
+  /* bottom: 498px; */
+  height: 700px;
+  width: 100%;
+  /* background-color: blue; */
+  background-color: white;
+}
+.container4 {
+  position: absolute;
+  top: 2276px;
+  /* bottom: 498px; */
+  height: 700px;
+  width: 100%;
+  background: transparent linear-gradient(244deg, #744a58 0%, #352341 100%) 0%
+    0% no-repeat padding-box;
+}
+.topnav {
+  overflow: hidden;
+  height: 60px;
+  width: 526px;
+  position: absolute;
+  left: 532px;
+  /* background-color: tomato; */
+}
+.topnav a {
+  float: right;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 11px;
+}
+.magnifying-glass {
+  position: absolute;
+  top: 11px;
+  right: 243px;
+  width: 26px;
+}
+.employeeportal {
+  position: absolute;
+  top: 11px;
+  right: 102px;
+  width: 138px;
+  height: 26px;
+  font-size: smaller;
+  color: white;
+  background-color: #382780;
+  background: transparent linear-gradient(256deg, #501769 0%, #382780 100%) 0%
+    0% no-repeat padding-box;
+  border-color: #382780;
+  padding: 0px;
+}
+.aspirelogo {
+  position: absolute;
+  /* top: 100px; */
+  left: 193px;
+  width: 100px;
+  /* background-color: blue; */
+}
+.middle {
+  height: 473px;
+  width: 627px;
+  float: right;
+  position: relative;
+  top: 206px;
+  right: 527px;
+  /* background-color: blue; */
+}
+.firstpage {
+  height: 464px;
+  width: 359px;
+  float: left;
+  position: relative;
+  top: 116px;
+  left: 759px;
+  /* background-color: turquoise; */
+}
+.image1 {
+  position: relative;
+  height: 545px;
+  width: 644px;
+  /* top: -19px; */
+  bottom: 41px;
+  /* left: -54px; */
+  right: 53px;
+}
+.dots {
+  position: relative;
+  top: 65px;
+  /* left: 34px; */
+  right: 100px;
+  height: 150px;
+  width: 177px;
+}
+.book {
+  position: relative;
+  top: 8px;
+  left: 1px;
+  height: 47px;
+  width: 138px;
+  background-color: rgba(67, 44, 70, 255);
+  border-color: white;
+  /* padding: 14px 28px;
+  font-size: medium; */
+  background-color: rgba(102, 54, 159, 255);
+}
+.arrow1 {
+  position: relative;
+  top: 44px;
+  left: 1px;
+  height: 30px;
+  width: 36px;
+  border: 1px solid white;
+  background: transparent url("img/Group 41.png") 0% 0% no-repeat padding-box;
+}
+.arrow2 {
+  position: relative;
+  top: 44px;
+  left: 20px;
+  height: 30px;
+  width: 36px;
+  border: 1px solid white;
+  background: transparent url("img/Group 41.png") 0% 0% no-repeat padding-box;
+}
+.line1 {
+  position: relative;
+  line-break: strict;
+  font-size: 70px;
+}
+.heading {
+  position: relative;
+  top: 42px;
+  left: 564px;
+  font-weight: 500;
+}
+.about {
+  position: relative;
+  top: 45px;
+  text-align: center;
+  font-size: smaller;
+}
+.arrow5 {
+  position: relative;
+  top: 265px;
+  left: 215px;
+  height: 17px;
+  width: 21px;
+  border: 1px solid #ebe7f0;
+}
+.arrow6 {
+  position: relative;
+  top: 265px;
+  left: 1059px;
+  height: 17px;
+  width: 21px;
+  border: 1px solid #ebe7f0;
+}
+.expert1 {
+  width: 18%;
+  height: 265px;
+  position: relative;
+  width: 232px;
+  height: 355px;
+  top: 84px;
+  text-align: center;
+  left: 291px;
+  background-color: white;
+}
+.oleg {
+  position: relative;
+  top: 44px;
+}
+.inverted-comma {
+  position: absolute;
+  /* top: -10px; */
+  bottom: 114px;
+  right: 175px;
+  height: 13px;
+}
+.playbutton {
+  position: absolute;
+  top: 102px;
+  left: 105px;
+  height: 22px;
+  width: 23px;
+}
+.expertstalk1 {
+  position: relative;
+  top: 19px;
+  left: 0px;
+  height: 115px;
+  background: #fcfaff 0% 0% no-repeat padding-box;
+  box-shadow: 17px 21px 70px #8d34c429;
+  border-radius: 9px 0px 5px 5px;
+  opacity: 2.2;
+}
+
+.expert2 {
+  width: 18%;
+  height: 265px;
+  position: relative;
+  width: 232px;
+  height: 355px;
+  /* top: 55px; */
+  bottom: 284px;
+  align-self: center;
+  text-align: center;
+  left: 551px;
+  background-color: white;
+}
+.sunil {
+  position: relative;
+  top: 44px;
+}
+/* .expertstalk2 img {
+  position: absolute;
+  top: 102px;
+  left: 105px;
+  height: 22px;
+  width: 23px;
+} */
+.expertstalk2 {
+  position: relative;
+  top: 19px;
+  left: 0px;
+  height: 115px;
+  background: #fcfaff 0% 0% no-repeat padding-box;
+  box-shadow: 17px 21px 70px #8d34c429;
+  border-radius: 9px 0px 5px 5px;
+  opacity: 2.2;
+}
+.expert3 {
+  width: 18%;
+  height: 265px;
+  position: relative;
+  width: 232px;
+  height: 355px;
+  /* top: 55px; */
+  bottom: 653px;
+  align-self: center;
+  text-align: center;
+  left: 810px;
+  background-color: white;
+}
+.randall {
+  position: relative;
+  top: 44px;
+}
+
+/* .expertstalk3 img {
+  position: absolute;
+  top: 102px;
+  left: 105px;
+  height: 22px;
+  width: 23px;
+} */
+.expertstalk3 {
+  position: relative;
+  top: 19px;
+  left: 0px;
+  height: 115px;
+  background: #fcfaff 0% 0% no-repeat padding-box;
+  box-shadow: 17px 21px 70px #8d34c429;
+  border-radius: 9px 0px 5px 5px;
+  opacity: 2.2;
+}
+.text1 {
+  position: relative;
+  top: 45px;
+  text-align: center;
+  font-size: 11px;
+  background-color: white;
+}
+.text1 img {
+  position: relative;
+  top: 12px;
+  left: 2px;
+  height: 26px;
+  width: 24px;
+}
+.text2 {
+  position: relative;
+  top: 45px;
+  /* left: 100px; */
+  text-align: center;
+  font-size: 11px;
+}
+.text2 img {
+  position: relative;
+  top: 28px;
+  left: 2px;
+  height: 26px;
+  width: 24px;
+}
+.text3 {
+  position: relative;
+  top: 45px;
+  /* left: 100px; */
+  text-align: center;
+  font-size: 11px;
+}
+.text3 img {
+  position: relative;
+  top: 29px;
+  left: 2px;
+  height: 26px;
+  width: 24px;
+}
+.person1 {
+  background-color: white;
+  height: 188px;
+}
+.person1 img {
+  border-radius: 50%;
+  position: relative;
+  top: 61px;
+  left: 46px;
+}
+.person2 {
+  background-color: white;
+  height: 188px;
+}
+.person2 img {
+  border-radius: 50%;
+  position: relative;
+  top: 79px;
+  left: 45px;
+}
+.person3 {
+  background-color: white;
+  height: 190px;
+}
+.person3 img {
+  border-radius: 50%;
+  position: relative;
+  top: 81px;
+  left: 49px;
+}
+.name1 {
+  position: relative;
+  top: 45px;
+  text-align: center;
+  font-size: 11px;
+}
+.position1 {
+  position: relative;
+  top: 34px;
+  text-align: center;
+  font-size: 11px;
+}
+.position1 img {
+  position: relative;
+  top: 1px;
+  left: 2px;
+  height: 16px;
+  width: 18px;
+}
+.name2 {
+  position: relative;
+  top: 46px;
+  text-align: center;
+  font-size: 11px;
+}
+.position2 {
+  position: relative;
+  top: 34px;
+  text-align: center;
+  font-size: 11px;
+}
+.position2 img {
+  position: relative;
+  top: 1px;
+  left: 2px;
+  height: 16px;
+  width: 18px;
+}
+.name3 {
+  position: relative;
+  top: 46px;
+  text-align: center;
+  font-size: 11px;
+}
+.position3 {
+  position: relative;
+  top: 34px;
+  text-align: center;
+  font-size: 11px;
+}
+.position3 img {
+  position: relative;
+  top: 1px;
+  left: 2px;
+  height: 16px;
+  width: 18px;
+}
+.client-info {
+  height: 341px;
+  width: 479px;
+  float: right;
+  position: relative;
+  /* top: 143px; */
+  bottom: 502px;
+  right: 361px;
+  background-color: white;
+}
+/* .apple {
+  position: relative;
+  top: 20px;
+  left: 2px;
+  height: 29px;
+  width: 29px;
+}
+.pearson {
+  position: relative;
+  top: 20px;
+  left: 2px;
+  height: 29px;
+  width: 29px;
+} */
+.picture1 img {
+  position: relative;
+  top: 102px;
+  left: 239px;
+  height: 142px;
+  width: 170px;
+}
+
+.picture2 img {
+  position: relative;
+  bottom: 3px;
+  left: 0px;
+  height: 561px;
+  width: 363px;
+}
+.dot {
+  height: 74px;
+  width: 66px;
+  position: relative;
+  /* top: 127px; */
+  bottom: 243px;
+  /* left: -37px; */
+  right: 40px;
+  background-color: #ff226f;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot img {
+  align-self: center;
+  position: relative;
+  top: 21px;
+  left: 21px;
+  height: 36px;
+  width: 24px;
+}
+.views {
+  height: 464px;
+  width: 359px;
+  float: right;
+  position: relative;
+  top: 90px;
+  right: 789px;
+  /* background-color: tomato; */
+}
+.demo1 img {
+  position: relative;
+  top: 71px;
+  left: 754px;
+  height: 134px;
+  width: 165px;
+}
+
+.demo2 img {
+  position: relative;
+  bottom: 32px;
+  left: 792px;
+  height: 591px;
+  width: 556px;
+}
+.Read {
+  position: relative;
+  top: 4px;
+  left: 1px;
+  height: 40px;
+  width: 138px;
+  background-color: rgba(67, 44, 70, 255);
+  border-color: white;
+  /* padding: 14px 28px;
+  font-size: medium; */
+}
+.Read h6 {
+  position: relative;
+  /* top: -12px; */
+  bottom: 22px;
+  font-size: 13px;
+  font-weight: lighter;
+  color: white;
+}
+.arrow3 {
+  position: relative;
+  top: 44px;
+  left: 1px;
+  height: 30px;
+  width: 36px;
+  border: 1px solid white;
+  background: transparent url("img/Group 45.png") 0% 0% no-repeat padding-box;
+}
+.arrow4 {
+  position: relative;
+  top: 44px;
+  left: 20px;
+  height: 30px;
+  width: 36px;
+  border: 1px solid white;
+  background: transparent url("img/Group 45.png") 0% 0% no-repeat padding-box;
+}
+.footer {
+  position: absolute;
+  top: 2163px;
+  left: 193px;
+  /* bottom: 76px; */
+  /* background-color: crimson; */
+  font-size: 10px;
+  width: 771px;
+}
+.footer1 {
+  position: relative;
+  top: 823px;
+}
+.copyrights {
+  position: absolute;
+  padding-left: 10px;
+}
+.careers {
+  position: absolute;
+  padding-left: 203px;
+}
+.news {
+  position: absolute;
+  padding-left: 263px;
+}
+.terms {
+  position: absolute;
+  padding-left: 340px;
+}
+.privacy {
+  position: absolute;
+  padding-left: 428px;
+}
+.map {
+  position: absolute;
+  padding-left: 490px;
+}
+.contact {
+  position: absolute;
+  padding-left: 556px;
+}
+.region {
+  position: absolute;
+  padding-left: 788px;
+}
+.global {
+  position: absolute;
+
+  padding-left: 838px;
+  color: #332830;
+  width: 100px;
+}
+.footer2 {
+  position: absolute;
+  top: 828px;
+  left: 918px;
+  width: 115px;
+}
